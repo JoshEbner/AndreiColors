@@ -1,5 +1,5 @@
 # AndreiColors
-R color palettes, inspired from the movies of Andrei Arsenyevich Tarkovsky (Андрей Арсеньевич Тарковский), a Russian filmmaker and theorist. He is widely considered one of the greatest and most influental directors in the history of Russian and world cinema.
+R color palettes, inspired by the movies of Andrei Arsenyevich Tarkovsky (Андрей Арсеньевич Тарковский), a Russian filmmaker and film theorist. He is widely considered one of the greatest and most influental directors in the history of Russian and world cinema.
 
 The colors of all his (color) movies in R color palettes.
 
