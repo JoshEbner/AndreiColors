@@ -1,0 +1,9 @@
+Package: AndreiColors
+Type: Package
+Title: Andrei Tarkovsky themed R color palettes
+Version: 0.1.0
+Author: Joshua Ebner
+Maintainer: Joshua Ebner <joshua.ebner@unibas.ch>
+Description: Andrei Tarkovsky inspired color palettes for data visualization in R
+Encoding: UTF-8
+LazyData: true
