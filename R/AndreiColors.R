@@ -2,7 +2,7 @@
 #::::::::::::::::::::::::::::::::::::::::::::::
 #' Complete list of palettes
 #'
-#' Use \code{names(At_palettes)} to view list of palette names.
+#' Use \code{names(at_palettes)} to view list of palette names.
 #' Currently:  stalker, nostalghia, solaris, mirror, sacrifice, violin
 #'
 #' @export
@@ -70,7 +70,7 @@ at_palette <- function(name, n, type = c("discrete", "continuous")) {
                 continuous = grDevices::colorRampPalette(pal[1,])(n),
                 discrete = pal[1,][pal[2,] %in% c(1:n)],
   )
-  structure(out, class = "Atpalette", name = name)
+  structure(out, class = "atpalette", name = name)
 
 }
 

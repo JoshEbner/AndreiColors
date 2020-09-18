@@ -48,7 +48,7 @@ at_palette("solaris")
 ```r
 at_palette("mirror")
 ```
-<img src="Images/TheMirror.JPG" width="500"/>
+<img src="Images/Mirror.jpg" width="500"/>
 
 ```r
 at_palette("violin")
@@ -64,6 +64,15 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   scale_fill_gradientn(colours = at_palette("solaris", n=50)) +
   theme_classic()
 ```
+<img src="Images/Solaris_example.png" width="500"/>
+
+```r
+ggplot(diamonds, aes(x=cut, y=carat, fill = cut)) +
+  geom_boxplot() +
+  scale_fill_manual(values=at_palette("stalker", 5))  +
+  theme_classic()
+```
+
 <img src="Images/Stalker_example.png" width="500"/>
 
 ```r
@@ -72,15 +81,8 @@ ggplot(diamonds, aes(carat, fill = cut)) +
   scale_fill_manual(values=at_palette("nostalghia",5, type = "discrete"))  +
   theme_classic()
 ```
-<img src="Images/Solaris_example.png" width="500"/>
 
-```r
-ggplot(diamonds, aes(x=cut, y=carat, fill = cut)) +
-  geom_boxplot() +
-  scale_fill_manual(values=at_palette("solaris", 5))  +
-  theme_classic()
-```
-<img src="Images/Nostalghia_example" width="500"/>
+<img src="Images/Nostalghia_example.png" width="500"/>
 
 ```r
 ggplot(diamonds, aes(carat, fill = cut)) +
