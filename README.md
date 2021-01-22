@@ -18,7 +18,7 @@ The [`colormind`](http://colormind.io/image/) website was used to extract color 
 ```r
 # dev version
 library(devtools)
-devtools::install_github("/JoshEbner/AndreiColors")
+devtools::install_github("JoshEbner/AndreiColors")
 ```
 
 ## Running the package
